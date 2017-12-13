@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Amitas | Forum</title>
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/bulma.css">
+      <link rel="stylesheet" href="css/bulma_ext.css">
+      <script type="text/javascript" src="js/main.js"></script>
+   </head>
+   <body>
+      <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+         <div class="container">
+         <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+            <img src="img/amitas_logo.svg" alt="Logo" width="112" height="28">
+            </a>
+            <div class="navbar-burger burger" data-target="navMenu">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+         </div>
+         <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+               <a class="navbar-item" href="index.html">
+               Forum
+               </a>
+               <a class="navbar-item" href="groups.html">
+               Communities
+               </a>
+               <div class="navbar-item">
+                  <p class="control has-icons-left">
+                     <input class="input" type="text" placeholder="Search">
+                     <span class="icon is-small is-left">
+                     <i class="fa fa-search"></i>
+                     </span>
+                  </p>
+               </div>
+            </div>
+            <div class="navbar-end">
+               <a class="navbar-item" href="new_announcement.html">
+               <span class="icon">                
+               <i class="fa fa-md fa-plus-square"></i>
+               </span>New Announcement</a>
+               <!-- notif -->
+               <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-item">
+                  <span class="icon" style="color: #FFF;">
+                  <i class="fa fa-lg fa-bell-o"></i>
+                  </span>
+                  </a>
+                  <div class="navbar-dropdown" role="menu">
+                     <a class="navbar-item" href="#">
+                        <div class="navbar-content" >
+                           <p>
+                              <small class="has-text-link">2 days ago</small>
+                           </p>
+                           <p>aliftan accepted your join group request</p>
+                        </div>
+                     </a>
+                     <hr class="navbar-divider">
+                     <a class="navbar-item" href="#">
+                        <div class="navbar-content" >
+                           <p>
+                              <small class="has-text-link">2 days ago</small>
+                           </p>
+                           <p>aliftan accepted your join group request</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- my account -->
+               <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link" target="_blank">
+                  My Account
+                  </a>
+                  <div class="navbar-dropdown is-boxed">
+                     <a class="navbar-item" href="profile.html">My Profile</a>
+                     <a class="navbar-item" href="group_joined.html">My Group</a>
+                     <hr class="navbar-divider">
+                     <a class="navbar-item" href="login.html">Logout</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <section class="section">
+         <div class="container">
+            <div class="columns">
+               <div class="column is-three-fifths">
+                  <nav class="breadcrumb" aria-label="breadcrumbs">
+                     <ul>
+                        <li><a href="groups.html">Groups</a></li>
+                        <li><a href=" group_detail.html">Ubuntu Linux ..</a></li>
+                        <li class="is-active"><a href="#" aria-current="page">Edit Group</a></li>
+                     </ul>
+                  </nav>
+                  <!-- edit thread -->
+                  <div class="box">
+                     <p class="title is-3">Edit My Group</p>
+                     <div class="field">
+                        <div class="control">
+                           <label class="label">Group Photo</label>
+                           <figure class="image is-96x96">
+                              <img src="https://i.imgur.com/E7bqjet.png">
+                           </figure>
+                        </div>
+                     </div>
+                     <div class="content">
+                        <!-- start edit -->
+                        <div class="field">
+                           <div class="file has-name is-fullwidth">
+                              <label class="file-label">
+                              <input class="file-input" type="file" name="resume">
+                              <span class="file-cta">
+                              <span class="file-icon">
+                              <i class="fa fa-upload"></i>
+                              </span>
+                              <span class="file-label">
+                              Choose a photo…
+                              </span>
+                              </span>
+                              <span class="file-name">ubuntu_logo.jpeg
+                              </span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="field">
+                           <label class="label">Group Name</label>
+                           <div class="control has-icons-left">           
+                              <input class="input" type="text" value="Ubuntu Linux Indonesia">
+                              <span class="icon is-small is-left">
+                              <i class="fa fa-users"></i>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="field">
+                           <label class="label">Group Info</label>
+                           <div class="control">           
+                              <textarea class="textarea" placeholder="Enter your group description">Ubuntu linux indonesia adalah group linux yang khusus mempelajari seputar distro ubuntu.</textarea>         
+                           </div>
+                        </div>
+                        <div class="field">
+                           <label class="label">Website Link</label>
+                           <div class="control has-icons-left">           
+                              <input class="input" type="text" value="https://ubuntu.com">
+                              <span class="icon is-small is-left">
+                              <i class="fa fa-facebook-square"></i>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="field">
+                           <label class="label">Social Link</label>
+                           <div class="control has-icons-left">           
+                              <input class="input" type="text" value="https://facebook.com/aliftan">
+                              <span class="icon is-small is-left">
+                              <i class="fa fa-facebook-square"></i>
+                              </span>
+                           </div>
+                        </div>
+                        <!-- finish edit -->
+                        <br>
+                        <div class="field is-grouped">
+                           <div class="control">
+                              <a href="group_detail.html" class="button is-success"><span class="icon">
+                              <i class="fa fa-floppy-o"></i>
+                              </span>
+                              <span>Save Changes</span>
+                              </a>
+                           </div>
+                           <div class="control">
+                              <a href="group_detail.html" class="button is-light">
+                              <span>Cancel</span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>
