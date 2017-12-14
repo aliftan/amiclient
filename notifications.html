@@ -36,7 +36,7 @@
                      <input class="input" type="text" placeholder="Search">
                      <span class="icon is-small is-left">
                      <i class="fa fa-search"></i>
-                     </span>
+                     </span>                
                   </p>
                </div>
             </div>
@@ -58,7 +58,7 @@
                   </a>
                   <div class="navbar-dropdown is-boxed">
                      <a class="navbar-item" href="profile.html">My Profile</a>
-                     <a class="navbar-item" href="group_joined.html">My Group</a>
+                     <a class="navbar-item" href="group_joined.html">My Group</a>         
                      <hr class="navbar-divider">
                      <a class="navbar-item" href="login.html">Logout</a>
                   </div>
@@ -66,59 +66,32 @@
             </div>
          </div>
       </nav>
-      <!-- tab menu -->
-      <nav class="navbar has-shadow">
-         <div class="container">
-            <div class="tabs">
-               <a class="navbar-item is-tab" href="groups.html">
-               <span class="icon is-small"><i class="fa fa-globe"></i></span>
-               <span>Discover</span>
-               </a>
-               <a class="navbar-item is-tab is-active" href="group_joined.html">
-               <span class="icon is-small"><i class="fa fa-users"></i></span>
-               <span>Joined</span>
-               </a>
-            </div>
-         </div>
-      </nav>
       <section class="section">
-         <div class="container">
-            <!-- groups info -->
-            <div class="columns">
-               <div class="column is-four-fifths is-left">
-                  <h3 class="title is-3">1 Group Joined</h3>
-               </div>
-            </div>
-            <!-- list groups -->
-            <div class="columns is-multiline is-mobile">
-               <div class="column is-3">
-                  <div class="card">
-                     <div class="card-content">
-                        <article class="media">
-                           <div class="media-left">
-                              <figure class="image is-64x64">
-                                 <img src="https://bulma.io/images/placeholders/64x64.png" alt="Placeholder image">
-                              </figure>
-                           </div>
-                           <div class="media-content">
-                            <a href="group_detail.html">                                
-                              <p class="title is-5" style="margin-bottom: 15px">Ubuntu Linux Indonesia</p>
-                            </a>
-                              <p class="field">
-                                 <a href="group_leave.html" class="button is-success is-outlined">
-                                 <span class="icon is-small">
-                                 <i class="fa fa-check"></i>
-                                 </span>
-                                 <span>Joined</span>
-                                 </a>
-                              </p>
-                           </div>
-                        </article>
+         <div class="container" style="width: 600px">
+            <div class="column">
+               <div class="box">
+                  <p class="title is-5 is-spaced">2 Notifications</p>
+                  <!-- notifications -->
+                  <a class="navbar-item" href="index.html">
+                     <div class="navbar-content">
+                        <p>
+                           <small class="has-text-link">14 Nov 2017</small>
+                        </p>
+                        <p>Bulma is on Patreon!</p>
                      </div>
-                  </div>
+                  </a>
+                  <hr class="navbar-divider">
+                  <a class="navbar-item" href="index.html">
+                     <div class="navbar-content">
+                        <p>
+                           <small class="has-text-link">01 Nov 2017</small>
+                        </p>
+                        <p>New feature: fixed navbar</p>
+                     </div>
+                  </a>
+                  <!-- end notifications -->
                </div>
             </div>
-            <!-- end groups -->
          </div>
       </section>
    </body>

@@ -5772,7 +5772,7 @@ a.navbar-item.is-active,
 a.navbar-link:hover,
 a.navbar-link.is-active {
     background-color: #00d1b2;
-    color: #3273dc
+    color: #FFF
 }
 .navbar-item {
     flex-grow: 0;
