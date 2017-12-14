@@ -3729,6 +3729,10 @@ print {
 .notification pre code {
     background: transparent
 }
+.notification > button.delete {
+  border: none;
+}
+
 .notification>.delete {
     position: absolute;
     right: .5em;

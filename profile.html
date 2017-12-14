@@ -32,11 +32,11 @@
                Communities
                </a>
                <div class="navbar-item">
-                  <p class="control has-icons-left has-icons-right">
+                  <p class="control has-icons-left">
                      <input class="input" type="text" placeholder="Search">
                      <span class="icon is-small is-left">
                      <i class="fa fa-search"></i>
-                     </span>                
+                     </span>
                   </p>
                </div>
             </div>
@@ -58,7 +58,7 @@
                   </a>
                   <div class="navbar-dropdown is-boxed">
                      <a class="navbar-item" href="profile.html">My Profile</a>
-                     <a class="navbar-item" href="group_joined.html">My Group</a>         
+                     <a class="navbar-item" href="group_joined.html">My Group</a>
                      <hr class="navbar-divider">
                      <a class="navbar-item" href="login.html">Logout</a>
                   </div>
@@ -67,56 +67,54 @@
          </div>
       </nav>
       <section class="section">
-         <div class="container" style="width: 600px">
-            <div class="column">
-               <!-- delete thread -->
-               <div class="box">
+          <div class="container" style="width: 500px">
+            <!-- about me -->    
+               <div class="box has-text-centered">
                   <div class="content">
-                     <p class="title is-4" style="margin-bottom: 34px">Report This Thread</p>
-                     <p class="subtitle is-6">Help us understand what's happening?</p>                     
-                     <div class="field">
-                        <div class="control">
-                           <input class="is-checkradio" id="1" type="radio" name="reportType">
-                           <label for="1">Sexual Content</label>
-                        </div>
-                     </div>
-                     <div class="field">
-                        <div class="control">
-                           <input class="is-checkradio" id="2" type="radio" name="reportType">
-                           <label for="2">Hateful Content</label>
-                        </div>
-                     </div>
-                     <div class="field">
-                        <div class="control">
-                           <input class="is-checkradio" id="3" type="radio" name="reportType">
-                           <label for="3">Spam or Misleading</label>
-                        </div>
-                     </div>
-                     <div class="field">
-                        <div class="control">
-                           <input class="is-checkradio" id="4" type="radio" name="reportType">
-                           <label for="4">Fool Language</label>
-                        </div>
-                     </div>
-                     <br>
-                     <div class="field is-grouped">
-                        <div class="control">
-                           <a href="thread_detail.html" class="button is-success"><span class="icon">
-                           <i class="fa fa-paper-plane"></i>
-                           </span>
-                           <span>Submit</span>
-                           </a>
-                        </div>
-                        <div class="control">
-                           <a href="thread_detail.html" class="button">                 
-                           <span>Cancel</span>
-                           </a>
-                        </div>
-                     </div>
+                     <p class="level-item has-text-centered">
+                        <img src="https://news.illinois.edu/files/6367/244919/73716.jpg" alt="profile photo" style="height: 96px; width: 96px; object-fit: cover;">
+                     </p>
+                  </div>
+                  <div class="content">
+                     <p class="title is-4" style="margin-bottom: 34px">Alif Tan</p>
+                     <p class="subtitle is-6">Tekhnik Informatika</p>
+                  </div>
+                  <div class="content">
+                     <p class="level-item has-text-centered">
+                        <a href="profile_edit.html" class="button is-success is-outlined"><span class="icon">
+                        <i class="fa fa-pencil"></i>
+                        </span>
+                        <span>Edit Profile</span>
+                        </a>
+                     </p>
                   </div>
                </div>
-            </div>
-         </div>
+               <!-- group information -->
+               <div class="box">
+                  <aside class="menu">
+                     <p class="menu-label">
+                        Profile Information
+                     </p>
+                     <ul class="menu-list">
+                        <li>
+                           <a>
+                           <span class="icon">
+                           <i class="fa fa-calendar"></i>
+                           </span>
+                           <span>23 Maret 2017</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/tupai.newbie">
+                           <span class="icon">
+                           <i class="fa fa-facebook"></i>
+                           </span>
+                           <span>Facebook</span>
+                           </a>
+                        </li>
+                     </ul>
+                  </aside>
+               </div>
       </section>
    </body>
 </html>

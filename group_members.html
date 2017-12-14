@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Amitas | Forum</title>
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/bulma.css">
+      <link rel="stylesheet" href="css/bulma_ext.css">
+      <script type="text/javascript" src="js/main.js"></script>
+   </head>
+   <body>
+      <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+         <div class="container">
+         <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+            <img src="img/amitas_logo.svg" alt="Logo" width="112" height="28">
+            </a>
+            <div class="navbar-burger burger" data-target="navMenu">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+         </div>
+         <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+               <a class="navbar-item" href="index.html">
+               Forum
+               </a>
+               <a class="navbar-item" href="groups.html">
+               Communities
+               </a>
+               <div class="navbar-item">
+                  <p class="control has-icons-left">
+                     <input class="input" type="text" placeholder="Search">
+                     <span class="icon is-small is-left">
+                     <i class="fa fa-search"></i>
+                     </span>
+                  </p>
+               </div>
+            </div>
+            <div class="navbar-end">
+               <a class="navbar-item" href="new_announcement.html">
+               <span class="icon">                
+               <i class="fa fa-md fa-plus-square"></i>
+               </span>New Announcement</a>
+               <!-- notif -->
+               <a class="navbar-item" href="notifications.html">
+               <span class="icon" style="color: #FFF;">
+               <i class="fa fa-lg fa-bell-o"></i>
+               </span>
+               </a>
+               <!-- my account -->
+               <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link" target="_blank">
+                  My Account
+                  </a>
+                  <div class="navbar-dropdown is-boxed">
+                     <a class="navbar-item" href="profile.html">My Profile</a>
+                     <a class="navbar-item" href="group_joined.html">My Group</a>
+                     <hr class="navbar-divider">
+                     <a class="navbar-item" href="login.html">Logout</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <section class="section">
+         <div class="container">
+         <div class="columns">
+            <!-- about group -->
+            <div class="column is-one-quarter">
+               <div class="box has-text-centered">
+                  <div class="content">
+                     <p class="level-item has-text-centered">
+                        <img src="https://i.imgur.com/E7bqjet.png" alt="group_logo" style="height: 96px;">
+                     </p>
+                  </div>
+                  <div class="content">
+                     <p class="title is-4" style="margin-bottom: 34px">Ubuntu Linux Indonesia</p>
+                     <p class="subtitle is-6">Group yang membahas seputar distro linux ubuntu</p>
+                  </div>
+                  <div class="content">
+                     <p class="level-item has-text-centered">
+                        <a href="group_edit.html" class="button is-success is-outlined"><span class="icon">
+                        <i class="fa fa-pencil"></i>
+                        </span>
+                        <span>Edit Group</span>
+                        </a>
+                     </p>
+                  </div>
+               </div>
+               <!-- group information -->
+               <div class="box">
+                  <aside class="menu">
+                     <p class="menu-label">
+                        Group Information
+                     </p>
+                     <ul class="menu-list">
+                        <li>
+                           <a href="group_members.html">
+                           <span class="icon">
+                           <i class="fa fa-bell-o"></i>
+                           </span>
+                           <span>Member Request</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a>
+                           <span class="icon">
+                           <i class="fa fa-user-o"></i>
+                           </span>
+                           <span>14 Members</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.ubuntu.com/">
+                           <span class="icon">
+                           <i class="fa fa-external-link"></i>
+                           </span>
+                           <span>ubuntuindonesia.com</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/tupai.newbie">
+                           <span class="icon">
+                           <i class="fa fa-facebook"></i>
+                           </span>
+                           <span>Facebook</span>
+                           </a>
+                        </li>
+                     </ul>
+                  </aside>
+               </div>
+            </div>
+            <div class="column is-half">               
+               <div class="box">
+                  <p class="title is-4">2 Join Request</p>
+                  <!-- member request -->
+                  <article class="media">
+                     <div class="media-left">
+                        <figure class="image is-48x48">
+                           <img src="https://d585tldpucybw.cloudfront.net/sfimages/default-source/authors/rahnev.jpg?sfvrsn=3745fb14_1" alt="user photo">
+                        </figure>
+                     </div>
+                     <div class="media-content">
+                        <!-- member info -->
+                        <div class="content">
+                           <p><a href="profile.html">
+                              <strong>Barbara Middleton</strong></a>
+                              <br>Tekhnik Informatika       
+                           </p>
+                        </div>
+                     </div>
+                     <!-- action -->
+                     <div class="media-right">
+                        <div class="field is-grouped">
+                           <div class="control">
+                              <a href="group_accept.html" class="button is-success">
+                              <span class="icon">
+                              <i class="fa fa-check"></i>
+                              </span>
+                              <span>Accept</span>
+                              </a>
+                           </div>
+                           <div class="control">
+                              <a href="group_reject.html" class="button is-danger">
+                              <span class="icon">
+                              <i class="fa fa-times"></i>
+                              </span>
+                              <span>Reject</span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </article>
+                  <article class="media">
+                     <div class="media-left">
+                        <figure class="image is-48x48">
+                           <img src="https://d585tldpucybw.cloudfront.net/sfimages/default-source/authors/rahnev.jpg?sfvrsn=3745fb14_1" alt="user photo">
+                        </figure>
+                     </div>
+                     <div class="media-content">
+                        <!-- member info -->
+                        <div class="content">
+                           <p><a href="profile.html">
+                              <strong>Barbara Middleton</strong></a>
+                              <br>Tekhnik Informatika       
+                           </p>
+                        </div>
+                     </div>
+                     <!-- action -->
+                     <div class="media-right">
+                        <div class="field is-grouped">
+                           <div class="control">
+                              <a href="group_accept.html" class="button is-success">
+                              <span class="icon">
+                              <i class="fa fa-check"></i>
+                              </span>
+                              <span>Accept</span>
+                              </a>
+                           </div>
+                           <div class="control">
+                              <a href="group_reject.html" class="button is-danger">
+                              <span class="icon">
+                              <i class="fa fa-times"></i>
+                              </span>
+                              <span>Reject</span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </article>
+                  <!-- end member request -->
+                  <br>
+                  <div class="content">
+                     <div class="field is-grouped">
+                        <div class="control">
+                           <a href="group_detail.html" class="button">
+                           <span class="icon" style="color: #999;">
+                           <i class="fa fa-angle-left"></i>
+                           </span>
+                           <span>Close</span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>

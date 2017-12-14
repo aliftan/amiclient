@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Amitas | Forum</title>
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/bulma.css">
+      <link rel="stylesheet" href="css/bulma_ext.css">
+      <script type="text/javascript" src="js/main.js"></script>
+   </head>
+   <body>
+      <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+         <div class="container">
+         <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+            <img src="img/amitas_logo.svg" alt="Logo" width="112" height="28">
+            </a>
+            <div class="navbar-burger burger" data-target="navMenu">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+         </div>
+         <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+               <a class="navbar-item" href="index.html">
+               Forum
+               </a>
+               <a class="navbar-item" href="groups.html">
+               Communities
+               </a>
+               <div class="navbar-item">
+                  <p class="control has-icons-left">
+                     <input class="input" type="text" placeholder="Search">
+                     <span class="icon is-small is-left">
+                     <i class="fa fa-search"></i>
+                     </span>
+                  </p>
+               </div>
+            </div>
+            <div class="navbar-end">
+               <a class="navbar-item" href="new_announcement.html">
+               <span class="icon">                
+               <i class="fa fa-md fa-plus-square"></i>
+               </span>New Announcement</a>
+               <!-- notif -->
+               <a class="navbar-item" href="notifications.html">
+               <span class="icon" style="color: #FFF;">
+               <i class="fa fa-lg fa-bell-o"></i>
+               </span>
+               </a>
+               <!-- my account -->
+               <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link" target="_blank">
+                  My Account
+                  </a>
+                  <div class="navbar-dropdown is-boxed">
+                     <a class="navbar-item" href="profile.html">My Profile</a>
+                     <a class="navbar-item" href="group_joined.html">My Group</a>
+                     <hr class="navbar-divider">
+                     <a class="navbar-item" href="login.html">Logout</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <section class="section">
+         <div class="container" style="width: 700px">
+            <div class="box">
+               <p class="title is-3">Edit Profile</p>
+               <!-- start edit -->
+               <div class="content">
+                  <div class="field">
+                     <div class="control">
+                        <label class="label">Profile Photo</label>            
+                        <img src="https://news.illinois.edu/files/6367/244919/73716.jpg" alt="profile photo" style="height: 96px; width: 96px; object-fit: cover; margin-bottom: 10px">               
+                        <br>
+                        <div class="file has-name is-fullwidth">
+                           <label class="file-label">
+                           <input class="file-input" type="file" name="resume">
+                           <span class="file-cta">
+                           <span class="file-icon">
+                           <i class="fa fa-upload"></i>
+                           </span>
+                           <span class="file-label">
+                           Choose a photo…
+                           </span>
+                           </span>
+                           <span class="file-name">
+                           </span>
+                           </label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="field">
+                     <label class="label">Name</label>
+                     <div class="control has-icons-left">           
+                        <input class="input" type="text" value="Alif Tan">
+                        <span class="icon is-small is-left">
+                        <i class="fa fa-user"></i>
+                        </span>
+                     </div>
+                  </div>
+                  <div class="field">
+                     <label class="label">Prodi</label>
+                     <div class="control has-icons-left">           
+                        <input class="input" type="text" value="Tekhnik Informatika" readonly="">
+                        <span class="icon is-small is-left">
+                        <i class="fa fa-user"></i>
+                        </span>
+                     </div>
+                  </div>
+                  <div class="field">
+                     <label class="label">Social Link</label>
+                     <div class="control has-icons-left">           
+                        <input class="input" type="text" value="https://facebook.com/aliftan">
+                        <span class="icon is-small is-left">
+                        <i class="fa fa-facebook-square"></i>
+                        </span>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="field">
+                     <label class="label">Current Password</label>
+                     <div class="control has-icons-left">           
+                        <input class="input" type="text" value="12345525" placeholder="enter password">
+                        <span class="icon is-small is-left">
+                        <i class="fa fa-lock"></i>
+                        </span>
+                     </div>
+                  </div>
+                  <div class="field">
+                     <label class="label">New Password</label>
+                     <div class="control has-icons-left">           
+                        <input class="input" type="password" placeholder="enter new password">
+                        <span class="icon is-small is-left">
+                        <i class="fa fa-lock"></i>
+                        </span>
+                     </div>
+                  </div>
+                  <div class="field">
+                     <label class="label">Confirm Password</label>
+                     <div class="control has-icons-left">           
+                        <input class="input" type="password" placeholder="confirm new password">
+                        <span class="icon is-small is-left">
+                        <i class="fa fa-lock"></i>
+                        </span>
+                     </div>
+                  </div>
+                  <!-- finish edit -->
+                  <br>
+                  <div class="field is-grouped">
+                     <div class="control">
+                        <a href="profile.html" class="button is-success"><span class="icon">
+                        <i class="fa fa-floppy-o"></i>
+                        </span>
+                        <span>Update Profile</span>
+                        </a>
+                     </div>
+                     <div class="control">
+                        <a href="profile.html" class="button">                 
+                        <span>Cancel</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>
