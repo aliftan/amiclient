@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Amitas | Forum</title>
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/bulma.css">
+      <link rel="stylesheet" href="css/bulma_ext.css">
+      <script type="text/javascript" src="js/main.js"></script>
+   </head>
+   <body>
+      <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+         <div class="container">
+         <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+            <img src="img/amitas_logo.svg" alt="Logo" width="112" height="28">
+            </a>
+            <div class="navbar-burger burger" data-target="navMenu">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+         </div>
+         <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+               <a class="navbar-item" href="index.html">
+               Forum
+               </a>
+               <a class="navbar-item" href="groups.html">
+               Communities
+               </a>
+               <div class="navbar-item">
+                  <p class="control has-icons-left">
+                     <input class="input" type="text" placeholder="Search">
+                     <span class="icon is-small is-left">
+                     <i class="fa fa-search"></i>
+                     </span>
+                  </p>
+               </div>
+            </div>
+            <div class="navbar-end">
+               <a class="navbar-item" href="new_announcement.html">
+               <span class="icon">                
+               <i class="fa fa-md fa-plus-square"></i>
+               </span>New Announcement</a>
+               <!-- notif -->
+               <a class="navbar-item" href="notifications.html">
+               <span class="icon" style="color: #FFF;">
+               <i class="fa fa-lg fa-bell-o"></i>
+               </span>
+               </a>
+               <!-- my account -->
+               <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link" target="_blank">
+                  My Account
+                  </a>
+                  <div class="navbar-dropdown is-boxed">
+                     <a class="navbar-item" href="profile.html">My Profile</a>
+                     <a class="navbar-item" href="group_joined.html">My Group</a>
+                     <hr class="navbar-divider">
+                     <a class="navbar-item" href="login.html">Logout</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <section class="section">
+         <div class="container">
+         <div class="columns">
+            <!-- about group -->
+            <div class="column is-one-quarter">
+               <div class="box has-text-centered">
+                  <div class="content">
+                     <p class="level-item has-text-centered">
+                        <img src="https://i.imgur.com/E7bqjet.png" alt="group_logo" style="height: 96px;">
+                     </p>
+                  </div>
+                  <div class="content">
+                     <p class="title is-4" style="margin-bottom: 34px">Ubuntu Linux Indonesia</p>
+                     <p class="subtitle is-6">Group yang membahas seputar distro linux ubuntu</p>
+                  </div>
+                  <div class="content">
+                     <p class="level-item has-text-centered">
+                        <a href="group_leave.html" class="button is-success is-outlined">
+                        <span class="icon is-small">
+                        <i class="fa fa-check"></i>
+                        </span>
+                        <span>Joined</span>
+                        </a>
+                     </p>
+                  </div>
+               </div>
+               <!-- group information -->
+               <div class="box">
+                  <aside class="menu">
+                     <p class="menu-label">
+                        Group Information
+                     </p>
+                     <ul class="menu-list">
+                        <li>
+                           <a href="group_members.html">
+                           <span class="icon">
+                           <i class="fa fa-bell-o"></i>
+                           </span>
+                           <span>Member Request</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a>
+                           <span class="icon">
+                           <i class="fa fa-user-o"></i>
+                           </span>
+                           <span>14 Members</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.ubuntu.com/">
+                           <span class="icon">
+                           <i class="fa fa-external-link"></i>
+                           </span>
+                           <span>ubuntuindonesia.com</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/tupai.newbie">
+                           <span class="icon">
+                           <i class="fa fa-facebook"></i>
+                           </span>
+                           <span>Facebook</span>
+                           </a>
+                        </li>
+                     </ul>
+                  </aside>
+               </div>
+            </div>
+            <div class="column is-two-fifths">
+               <!-- write post -->
+               <div class="box">
+                  <article class="media">
+                     <figure class="media-left">
+                        <p class="image is-64x64">
+                           <img src="https://pbs.twimg.com/profile_images/542046114791178240/n3uSJI7z.jpeg">
+                        </p>
+                     </figure>
+                     <div class="media-content">
+                        <div class="field">
+                           <p class="control">
+                              <textarea class="textarea" placeholder="What do you want to share?" rows="3"></textarea>
+                           </p>
+                        </div>
+                        <nav class="level-right">
+                           <div class="level-item">
+                              <a class="button is-info">Post</a>
+                           </div>
+                        </nav>
+                     </div>
+                  </article>
+               </div>
+               <div class="columns is-multiline is-mobile">
+                  <div class="column is-12">
+                     <!-- post timeline -->
+                     <div class="box">
+                        <article class="media">
+                           <figure class="media-left">
+                              <p class="image is-48x48">
+                                 <img src="https://d585tldpucybw.cloudfront.net/sfimages/default-source/authors/rahnev.jpg?sfvrsn=3745fb14_1">
+                              </p>
+                           </figure>
+                           <div class="media-content">
+                              <div class="content">
+                                 <p>
+                                    <strong>Barbara Middleton</strong>
+                                    <small>2 hrs</small>
+                                    <br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                 </p>
+                              </div>
+                              <!-- after comment -->
+                              <article class="media">
+                                 <figure class="media-left">
+                                    <p class="image is-48x48">
+                                       <img src="https://uploads.toptal.io/user/photo/222340/large_18686f1089ec88fa4e5ae2e41f74aa8a.png">
+                                    </p>
+                                 </figure>
+                                 <div class="media-content">
+                                    <div class="content">
+                                       <p>
+                                          <strong>Kayli Eunice </strong>
+                                          <small>2 hrs</small>
+                                          <br>
+                                          Sed convallis scelerisque mauris, non pulvinar nunc mattis vel.                 
+                                       </p>
+                                    </div>
+                                 </div>
+                              </article>
+                              <!-- end after comment -->
+                           </div>
+                           <!-- more option -->
+                           <div class="media-right">
+                              <div class="navbar-item has-dropdown is-hoverable">
+                                 <div class="navbar-link">                                  
+                                 </div>
+                                 <div class="navbar-dropdown is-boxed">
+                                    <a href="post_edit.html" class="button is-white">
+                                    <span class="icon" style="color: #999;">
+                                    <i class="fa fa-pencil"></i>
+                                    </span>
+                                    <span>Edit Post</span>
+                                    </a>
+                                    <br>
+                                    <a href="post_delete.html" class="button is-white">
+                                    <span class="icon" style="color: #999;">
+                                    <i class="fa fa-trash"></i>
+                                    </span>
+                                    <span>Delete Post</span>
+                                    </a>
+                                    <br>
+                                    <a href="post_report.html" class="button is-white">
+                                    <span class="icon" style="color: #999;">
+                                    <i class="fa fa-flag"></i>
+                                    </span>
+                                    <span>Report Post</span>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- end more option -->
+                        </article>
+                        <article class="media">
+                           <figure class="media-left">
+                              <p class="image is-48x48">
+                                 <img src="https://pbs.twimg.com/profile_images/542046114791178240/n3uSJI7z.jpeg">
+                              </p>
+                           </figure>
+                           <div class="media-content">
+                              <div class="field">
+                                 <p class="control">
+                                    <textarea class="textarea" placeholder="Add a comment..." rows="1"></textarea>
+                                 </p>
+                              </div>
+                              <div class="field">
+                                 <p class="control">
+                                    <button class="button">Post comment</button>
+                                 </p>
+                              </div>
+                           </div>
+                        </article>
+                     </div>
+                     <div class="box">
+                        <article class="media">
+                           <figure class="media-left">
+                              <p class="image is-48x48">
+                                 <img src="https://d585tldpucybw.cloudfront.net/sfimages/default-source/authors/rahnev.jpg?sfvrsn=3745fb14_1">
+                              </p>
+                           </figure>
+                           <div class="media-content">
+                              <div class="content">
+                                 <p>
+                                    <strong>Barbara Middleton</strong>
+                                    <small>2 hrs</small>
+                                    <br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                 </p>
+                              </div>
+                              <!-- after comment -->                         
+                              <!-- end after comment -->
+                           </div>
+                           <!-- more option -->
+                           <div class="media-right">
+                              <div class="navbar-item has-dropdown is-hoverable">
+                                 <div class="navbar-link">                                  
+                                 </div>
+                                 <div class="navbar-dropdown is-boxed">
+                                    <a href="post_edit.html" class="button is-white">
+                                    <span class="icon" style="color: #999;">
+                                    <i class="fa fa-pencil"></i>
+                                    </span>
+                                    <span>Edit Post</span>
+                                    </a>
+                                    <br>
+                                    <a href="post_delete.html" class="button is-white">
+                                    <span class="icon" style="color: #999;">
+                                    <i class="fa fa-trash"></i>
+                                    </span>
+                                    <span>Delete Post</span>
+                                    </a>
+                                    <br>
+                                    <a href="post_report.html" class="button is-white">
+                                    <span class="icon" style="color: #999;">
+                                    <i class="fa fa-flag"></i>
+                                    </span>
+                                    <span>Report Post</span>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- end more option -->
+                        </article>
+                        <article class="media">
+                           <figure class="media-left">
+                              <p class="image is-48x48">
+                                 <img src="https://pbs.twimg.com/profile_images/542046114791178240/n3uSJI7z.jpeg">
+                              </p>
+                           </figure>
+                           <div class="media-content">
+                              <div class="field">
+                                 <p class="control">
+                                    <textarea class="textarea" placeholder="Add a comment..." rows="1"></textarea>
+                                 </p>
+                              </div>
+                              <div class="field">
+                                 <p class="control">
+                                    <button class="button">Post comment</button>
+                                 </p>
+                              </div>
+                           </div>
+                        </article>
+                     </div>
+                     <!-- end post timeline -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>
